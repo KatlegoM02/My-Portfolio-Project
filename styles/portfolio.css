@@ -76,6 +76,20 @@ p {
   font-size: 28px;
   text-decoration: none;
 }
+.linkedin-link {
+  display: flex;
+  justify-content: center;
+  color: var(--branding-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+.instagram-link {
+  display: flex;
+  justify-content: center;
+  color: var(--branding-color);
+  font-size: 28px;
+  text-decoration: none;
+}
 
 .email-link:hover {
   text-decoration: underline;
