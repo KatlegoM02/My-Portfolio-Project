@@ -19,9 +19,39 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&family=Poppins:wght@500;700&display=swap" rel="stylesheet">
-    <title>Portfolio</title>
+    <title>Work</title>
 </head>
 <body>
+     <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img
+            src="images/logo.png"
+            class="logo d-none d-md-block"
+            alt="Katlego Logo"
+          />
+          <img
+            src="images/logo-small.jpg"
+            class="logo d-block d-md-none"
+            alt="Katlego Logo"
+          />
+        </a>
+        <ul>
+          <li>
+            <a href="/" title="Homepage"> Home</a>
+          </li>
+          <li>
+            <a href="/about.html" title="About Katlego"> About</a>
+          </li>
+          <li class="active">
+            <a href="/work.html" title="Katlego's work"> Work</a>
+          </li>
+          <li>
+            <a href="/contact.html" title="Katlego's Contacts"> Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
         <div class="content">
             <h1 class="mb-5"> Take a look at what I have been working on!</h1>
@@ -50,7 +80,7 @@
             />
             <h3 class="text-center m-0">Dictionary App</h3>
             <p class="text-center text-muted">
-              Built with HTML, CSS with React
+              Built with HTML, CSS with React 
             </p>
           </div>
           <div class="col-md-6 mb-4">
@@ -73,7 +103,7 @@
             <p class="text-muted">Let's work together</p>
           </div>
           <div>
-            <a href="" class="btn btn-branding mt-3"> Contact me </a>
+            <a href="/contact.html" class="btn btn-branding mt-3"> Contact me </a>
           </div>
         </div>
         <div class="d-flex justify-content-center mb-5">
@@ -92,6 +122,15 @@
             <i class="fa-brands fa-linkedin"></i>
           </a>
         </div>
+        <p class="text-center mt-5">
+        ✌️ This website was coded by Katlego Makgatle, and it is
+        <a
+          href="https://github.com/KatlegoM02/My-Portfolio-Project"
+          target="_blank"
+        >
+          open-sourced
+        </a>
+        </p>
       </footer>
 </div>
 </body>
